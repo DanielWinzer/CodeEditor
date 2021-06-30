@@ -145,14 +145,12 @@ if __name__=="__main__":
 
         if event=="import":
             pass
-            """
-            window["-module_list-"].Update("")
+            #window["-module_list-"].Update("")
 
-            code+=f"\nimport {values['-module_list-']}"
-            window["-output-"].update(f"{code}")
-            tabs=0
-            tab_index=0
-            """
+            #code+=f"\nimport {values['-module_list-']}"
+            #window["-output-"].update(f"{code}")
+            #tabs=0
+            #tab_index=0
 
         if event=="←":
             if tabs>=0: tabs-=1
